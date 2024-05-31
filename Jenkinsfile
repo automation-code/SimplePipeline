@@ -9,7 +9,7 @@ pipeline{
 	    stage('Code'){
 	        steps{
 	        	echo "Cloning the code"
-	            	git url: "https://github.com/automation-code/SimplePipeline.git", branch: "master"
+	            	git "https://github.com/automation-code/SimplePipeline.git", "master"
 			}
 	stage('Build'){
 	        steps{
