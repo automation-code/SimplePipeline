@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="2">
+	<test name="AddRemoveElement Testing">
+		<classes>
+			<class name="testCase.AddRemoveElement" />
+		</classes>
+	</test>
+	<test name="DynamicTable Testing">
+		<classes>
+			<class name="testCase.DynamicTable" />
+		</classes>
+	</test>
+	<test name="NotificationMessage Testing">
+		<classes>
+			<class name="testCase.NotificationMessage" />
+		</classes>
+	</test>
+	<test name="WebInput Testing">
+		<classes>
+			<class name="testCase.WebInput" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
